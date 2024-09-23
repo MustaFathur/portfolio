@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFR | Web Developer</title>
+    <!-- Chrome Tab Icon -->
+    <link rel="icon" type="image/jpg" href="./assets/images/logo.jpg">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <!-- Fonts Sources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Icons Sources -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"></script>
+</head>
+<body>
+    <!-- Header Session -->
+    <header>
+        <nav>
+            <div class="navbar-container">
+                <div class="brand">
+                    <a href="/">MFR</a>
+                </div>
+                <ul class="navigation-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-controls">
+                <!-- Ligth/Dark Mode Theme Toggle Button -->
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i data-feather="sun"></i>
+                </button>
+                <!-- Hamburger Menu Button -->
+                <button id="menu-toggle" aria-label="Toggle menu">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- Main Session -->
+    <main>
+        <div class="content">
+            <!-- About Session -->
+            <section id="about">
+                <!-- Profile Article -->
+                <article class="profile">
+                    <img src="./assets/images/my_picture.jpg" alt="foto_fathur">
+                    <h1>I'm Fathur</h1>
+                    <p>Web Developer based in Padang City, Indonesia.</p>
+                    <div class="my-skills">
+                        <div class="skill">
+                            <h3>Languages</h3>
+                            <div class="skill-container">
+                                <div class="skill-item"><span>HTML</span><i class="fa-brands fa-html5"></i></div>
+                                <div class="skill-item"><span>CSS</span><i class="fa-brands fa-css3-alt"></i></div>
+                                <div class="skill-item"><span>Javascript</span><i class="fa-brands fa-js"></i></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h3>Frameworks and Library</h3>
+                            <div class="skill-container">
+                                <div class="skill-item"><span>Bootstrap</span><i class="fa-brands fa-bootstrap"></i></div>
+                                <div class="skill-item"><span>Laravel</span><i class="fa-brands fa-laravel"></i></div>
+                                <div class="skill-item"><span>Node JS</span><i class="fa-brands fa-node-js"></i></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h3>Others</h3>
+                            <div class="skill-container">
+                                <div class="skill-item"><span>Database</span><i class="fa-solid fa-database"></i></div>
+                                <div class="skill-item"><span>Figma</span><i class="fa-brands fa-figma"></i></div>
+                                <div class="skill-item"><span>VS Code</span><i class="fa-solid fa-code"></i></div>
+                                <div class="skill-item"><span>Git</span><i class="fa-brands fa-git"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </article> 
+                <!-- About Me Article -->
+                <article class="about-me">
+                    <h1 class="title">About</h1>
+                    <div class="content">
+                        <p class="article-paragraph">Hi!, my name is Mustafa Fathur Rahman, a bachelor of information system student.</p>
+                        <p class="article-paragraph">
+                            I am a web developer who just starting my journey in the world of web development. I'm passionate about learning and building
+                            websites that are not only functional but also visually appealing and easy to use. Although I'm still developing my skills, I've
+                            already gained hands-on experience with HTML, CSS, and Javascript, and I'm excited to continue growing my knowledge every day.
+                        </p>
+                        <p class="article-paragraph">
+                            I’ve worked on a few personal projects that have helped me understand the importance of responsive design, clean code, and 
+                            how the web comes together from both the front-end and back-end perspectives. I enjoy the challenge of solving problems through
+                            code and the creative process of bringing ideas to life on the screen. 
+                        </p> 
+                        <p class="article-paragraph">
+                            As a beginner, I’m committed to learning the best practices, exploring new tools and frameworks, and continuously improving my craft. 
+                            I’m eager to work on more projects, collaborate with others, and turn my passion into a career. Let's connect if you're looking for 
+                            someone enthusiastic and ready to contribute!
+                        </p>
+                    </div>
+                </article>
+            </section>
+            <!-- Projects Session -->
+            <section id="projects">
+                <h1 class="title">My Projects</h1>
+                <div class="projects-container">
+                    <!-- BookMySpace Project -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <a href="https://github.com/NaufalAD13/Tugas-Besar-PWEB-B-11" target="_blank">
+                                <img src="./assets/images/bookmyspace.png" alt="bookmyspace">
+                            </a>
+                        </div>
+                        <div class="project-content">
+                            <h3>BookMySpace</h3>
+                            <p>BookMySpace is a web application for the Information System Department to streamline room booking processes. Developed as part of my 5th-semester web programming class, it serves as an efficient room management system.</p>
+                            <div class="project-about">
+                                <div class="technology">
+                                    <div class="tech-item"><span>Node JS</span></div>
+                                    <div class="tech-item"><span>Express JS</span></div>
+                                    <div class="tech-item"><span>Tailwind CSS</span></div>
+                                    <div class="tech-item"><span>Preline UI</span></div>
+                                </div>
+                                <div class="github">
+                                    <a href="https://github.com/NaufalAD13/Tugas-Besar-PWEB-B-11" target="_blank">
+                                        <i data-feather="github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Mahasiswa Mengajar Project -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <a href="https://github.com/MustaFathur/mahasiswa_mengajar" target="_blank">
+                                <img src="./assets/images/mahasiswa_mengajar.jpg" alt="mahasiswa mengajar">
+                            </a>
+                        </div>
+                        <div class="project-content">
+                            <h3>Mahasiswa Mengajar</h3>
+                            <p>Mahasiswa Mengajar is a platform that connects university students to schools lacking teaching staff. Created during a hackathon hosted by Firetech Neotelemetri x GDSC UNAND.</p>
+                            <div class="project-about">
+                                <div class="technology">
+                                    <div class="tech-item"><span>Node JS</span></div>
+                                    <div class="tech-item"><span>Express JS</span></div>
+                                    <div class="tech-item"><span>Tailwind CSS</span></div>
+                                </div>
+                                <div class="github">
+                                    <a href="https://github.com/MustaFathur/mahasiswa_mengajar" target="_blank">
+                                        <i data-feather="github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- FTI Room Project -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <a href="https://ftiroom.mustafafathur.my.id/" target="_blank">
+                                <img src="./assets/images/fti_room.png" alt="fti room">
+                            </a>
+                        </div>
+                        <div class="project-content">
+                            <h3>FTI Room</h3>
+                            <p>FTI Room is a more refined version of BookMySpace, built for the entire Faculty of Information Technology, featuring a better UI/UX and an optimized database design.</p>
+                            <div class="project-about">
+                                <div class="technology">
+                                    <div class="tech-item"><span>Node JS</span></div>
+                                    <div class="tech-item"><span>Express JS</span></div>
+                                    <div class="tech-item"><span>Preline UI</span></div>
+                                </div>
+                                <div class="github">
+                                    <a href="https://github.com/MustaFathur/FTIRoom" target="_blank">
+                                        <i data-feather="github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <!-- Contact Session -->
+            <section id="contact">
+                <h1 class="title">Contact</h1>
+                <div class="contact-container">
+                    <!-- Social Media Session -->
+                    <article class="social-media">
+                        <h3>My Media</h3>
+                        <a class="social-card" href="https://github.com/MustaFathur" target="_blank">
+                            <div class="social-logo"><i data-feather="github"></i></div>
+                            <div class="social-name">MustaFathur</div>
+                        </a>
+                        <a class="social-card" href="https://www.linkedin.com/in/mustafa-fathur-rahman-167481247/" target="_blank">
+                            <div class="social-logo"><i data-feather="linkedin"></i></div>
+                            <div class="social-name">Mustafa Fathur Rahman</div>
+                        </a>
+                        <a class="social-card" href="https://www.instagram.com/mustafa_fathur/" target="_blank">
+                            <div class="social-logo"><i data-feather="instagram"></i></div>
+                            <div class="social-name">@mustafa_fathur</div>
+                        </a>
+                        <a class="social-card" href="#">
+                            <div class="social-logo"><i data-feather="message-circle"></i></div>
+                            <div class="social-name">+62 822-6810-8031</div>
+                        </a>
+                    </article>
+                    <!-- Email Session -->
+                    <article class="contact-form">
+                        <h3>Send me an email</h3>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea name="message" id="message" required></textarea>
+                            </div>
+                            <button type="submit">Send</button>
+                        </form>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <!-- Aside Session -->
+        <aside>
+            <div class="aside-container">
+                <ul class="aside-content">
+                    <li><a href="#"><img src="./assets/images/Foto.jpg" alt="pas_foto"></a></li>
+                    <li><a href="https://github.com/MustaFathur" target="_blank"><i data-feather="github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/mustafa-fathur-rahman-167481247/" target="_blank"><i data-feather="linkedin"></i></a></li>
+                    <li><a href="https://www.goodreads.com/user/show/174260677-mustafa-fathur" target="_blank"><i data-feather="book"></i></a></li>
+                </ul>    
+            </div>
+        </aside>
+    </main>
+    <!-- Footer Session -->
+    <footer>
+        <div class="footer-container">
+            <p>Mustafa Fathur Rahman &#169 2024. Inspired by <a href="https://dribbble.com/shots/23230801-Albert-Flores-Product-Designer-Portfolio-Website?utm_source=Clipboard_Shot&utm_campaign=syahrulfalah&utm_content=Albert%20Flores%20-%20Product%20Designer%20Portfolio%20Website&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=syahrulfalah&utm_content=Albert%20Flores%20-%20Product%20Designer%20Portfolio%20Website&utm_medium=Social_Share" target="_blank">Dribble</a></p>
+        </div>
+    </footer>
+    <!-- Scroll Up Button -->
+    <button class="scroll-up" aria-label="Scroll ke atas">
+        <i data-feather="chevron-up"></i>
+    </button>
+    <!-- Javascript Sources -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
